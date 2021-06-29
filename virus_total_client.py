@@ -44,7 +44,7 @@ class VirusTotalClient:
 
     def get_file_report(self, sha256):
         """
-        return file stuff from the virus total api for the provided whatever
+        return sha256 resources report
         """
         return self.get('/file/report', query_params={
             'resource': sha256
