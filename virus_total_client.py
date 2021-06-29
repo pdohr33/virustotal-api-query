@@ -99,7 +99,8 @@ def main():
     api_key = get_virustotal_api_key()
     domain = get_domain_input()
     client = VirusTotalClient(api_key)
-    client.get_domain_report()
+    client.get_domain_report(domain)
+
 
     print(f"[+] getting virus total domain report for {domain}")
     report = client.get_domain_report(domain)
