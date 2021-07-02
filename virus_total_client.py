@@ -2,7 +2,7 @@ import requests
 import keyring
 from pprint import pprint
 
-QUERY_DOMAIN = "zoom.us"
+QUERY_DOMAIN = "paychex.com"
 MIN_POSITIVE_SAMPLE_COUNT = 10
 MAX_POSITIVE_SAMPLE_COUNT = 30
 
